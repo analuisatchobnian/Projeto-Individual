@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+}
+
+.tela_login {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("../assets/imgs/fundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.tela_cadastro {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("../assets/imgs/fundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.barra_login {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    height: 10%;
+    width: 100%;
+}
+
+.topicos_login {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: end;
+    width: 80%;
+}
+
+.topicos_login a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.bt_home:hover {
+    color: rgb(108, 10, 10);
+}
+
+.bt_hist:hover {
+    color: rgb(108, 10, 10);
+}
+
+.bt_cad:hover {
+    color: rgb(108, 10, 10);
+}
+
+.bt_cur:hover {
+    color: rgb(108, 10, 10);
+}
+
+.bt_log:hover {
+    color: rgb(108, 10, 10);
+}
+
+.box_login {
+    position: relative;
+    transform: translate(340px, 250px);
+    background-color: black;
+    padding: 50px;
+    border-radius: 15px;
+    height: 420px;
+    width: 450px;
+    border: 2px rgb(194, 16, 16);
+    box-shadow: 0 0 10px rgb(194, 16, 16);
+    text-align: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.box_cadastro {
+    position: relative;
+    transform: translate(900px, 170px);
+    background-color: black;
+    padding: 50px;
+    border-radius: 15px;
+    height: 580px;
+    width: 490px;
+    border: 2px rgb(194, 16, 16);
+    box-shadow: 0 0 10px rgb(194, 16, 16);
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.tituloLogin {
+    color: white;
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transform: translate(0, -40px);
+}
+
+.tituloCadastro {
+    color: white;
+    font-size: 38px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-top: 10px;
+    transform: translate(18px, -30px);
+}
+
+.topo {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    text-align: start;
+    align-items: start;
+    transform: translate(0, -20px);
+}
+
+.topo1 {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    text-align: start;
+    align-items: start;
+    position: relative;
+    top: -25px;
+}
+
+
+.ipt {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+    background-color: gray;
+    box-shadow: 0 0 10px rgb(194, 16, 16);
+    transform: translate(0, -25px);
+}
+
+.ipt1 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+    background-color: gray;
+    box-shadow: 0 0 10px rgb(194, 16, 16);
+    margin-bottom: 5px;
+    transform: translate(0, -20px);
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.639);
+}
+
+#button_registro {
+    top: 90%;
+}
+
+#button_validar {
+    gap: 10px;
+    background-color: #ffffffc5;
+    border-radius: 10px;
+    width: 470px;
+    height: 43px;
+    border: none;
+    margin-top: 30px;
+    transform: translate(0, -28px);
+}
+
+#button_registro {
+    gap: 10px;
+    background-color: #ffffffc5;
+    border-radius: 10px;
+    width: 500px;
+    height: 40px;
+    border: none;
+    margin-top: -25px;
+}
+
+#ir_cadastro {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    margin-top: 40px;
+}
+
+.box_imagem_login {
+    position: relative;
+    transform: translate(1100px, -350px);
+    background-color: black;
+    padding: 50px;
+    border-radius: 15px;
+    height: 350px;
+    width: 250px;
+    border: 2px rgb(194, 16, 16);
+    box-shadow: 0 0 10px rgb(194, 16, 16);
+    text-align: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.box_imagem_cadastro {
+    position: relative;
+    transform: translate(400px, -500px);
+    background-color: black;
+    padding: 50px;
+    border-radius: 15px;
+    height: 350px;
+    width: 250px;
+    border: 2px rgb(194, 16, 16);
+    box-shadow: 0 0 10px rgb(194, 16, 16);
+    text-align: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.imagem_login {
+    background-image: url("../assets/imgs/tela_login.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 15vw;
+    height: 25vh;
+
+    transform: translate(-18px, -10px);
+}
+
+.imagem_cadastro {
+    background-image: url("../assets/imgs/427cc7e2cd3b678f52f72ee6bfe5282d.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 15vw;
+    height: 29vh;
+
+    transform: translate(-18px, -23px);
+}
+
+.paragrafo_login {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    transform: translate(-18px, 4px);
+    width: 300px;
+}
+
+.paragrafo_cadastro {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    transform: translate(-18px, 4px);
+    width: 300px;
+}
+
+.acesso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    text-align: center;
+
+
+    color: white;
+    background-color: transparent;
+    border: none;
+
+}

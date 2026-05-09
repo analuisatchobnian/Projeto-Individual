@@ -2,81 +2,126 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>AquaTech | Página Inicial</title>
+  <title>Universo Teen Wolf | Página Inicial</title>
 
-    <script src="./js/sessao.js"></script>
+  <script src="./js/sessao.js"></script>
 
-    <link rel="stylesheet" href="./css/estilo.css">
-    <link rel="icon" href="./assets/icon/favicon2.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style_login.css">
+  <link rel="stylesheet" href="./css/estilo.css">
+  <link rel="icon" href="./assets/icon/favicon2.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 
 <body>
-    <div class="header">
-      <div class="container">
-        <h1 class="titulo">AquaTech</h1>
-        <ul class="navbar">
-          <li class="agora">
-            <a href="#">Inicial</a>
+  <section id="home" class="tela_home"></section>
+  <header>
+    <div class="quadrado_preto">
+      <nav class="topicos">
+        <ul class="topicos-barra">
+          <li><a href="#home" class="bt_home">HOME</a></li>
+          <li><a href="#historia" class="bt_hist" id="id_hist">HISTÓRIA</a></li>
+          <li><a href="#" class="bt_cur" id="id-cur">CURIOSIDADES</a></li>
+          <li><a href="./cadastro.html" class="bt_cad" id="id_cad" onclick="irCadastro()">CADASTRO</a>
           </li>
-          <li>
-            <a href="simulador.html">Simulador</a>
-          </li>
-          <li>|</li>
-          <li>
-            <a href="login.html">Login</a>
-          </li>
-          <li>
-            <a href="cadastro.html">Cadastro</a>
-          </li>
+          <li><a href="./login.html" class="bt_log" onclick="irParaLogin()">LOGIN</a></li>
         </ul>
+      </nav>
+
+
+      <div class="titulo_home">
+        <p>Bem Vindo ao <br> Universo Teen Wolf</p>
       </div>
-    </div>
-  
-    <div class="banner">
-      <div class="container">
-        <p>Preservando <span>hoje</span> para existirem <span>amanhã</span>.</p>
+      <div class="paragrafo_home">
+        <p>Descubra mais sobre esse universo sobrenatural misterioso.<br>
+          Explore os mistérios mais sombrios e bizarros, <br>criaturas perigosas e segredos que se
+          escondem na lua cheia.
+          <br>Acompanhe a jornada épica de Scott McCall e sua alcateia,<br> enfrentando desafios intensos,
+          inimigos poderosos <br>e escolhas que podem mudar tudo.
+        </p>
       </div>
-    </div>
-  
-    <div class="social">
-      <div class="container">
-        <div class="boxes">
-          <div class="box">
-            <img src="assets/imgs/planet-earth_color.png">
-            <h4>Missão</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quas cupiditate asperiores provident magnam
-              vitae illum iusto fugiat atque deleniti nulla sed iure suscipit, laborum, aliquid accusantium cum dicta
-              minima.</p>
-          </div>
-          <div class="box">
-            <img src="assets/imgs/lightbulb_color.png">
-            <h4>Visão</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quas cupiditate asperiores provident magnam
-              vitae illum iusto fugiat atque deleniti nulla sed iure suscipit, laborum, aliquid accusantium cum dicta
-              minima.</p>
-          </div>
-          <div class="box">
-            <img src="assets/imgs/growth_color.png">
-            <h4>Valores</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quas cupiditate asperiores provident magnam
-              vitae illum iusto fugiat atque deleniti nulla sed iure suscipit, laborum, aliquid accusantium cum dicta
-              minima.</p>
-          </div>
+      <div class="episodios">
+        <p>Episódios Imperdíveis</p>
+      </div>
+      <div class="div_episodios">
+        <div class="titulo_ep_morte">Insaciável</div>
+        <div class="imagem_ep_morte"></div>
+        <div class="descricao_ep_morte">
+          <p>Durante uma batalha contra o Void Stiles,<br>Alisson morre com uma espada nas costas. <br>
+            Esse é considerado um dos episódios mais<br> tristes da série</p>
+        </div>
+        <div class="titulo_ep_motel">Motel Califórnia</div>
+        <div class="imagem_ep_motel"></div>
+        <div class="descricao_ep_motel">
+          <p>Encurralados, Scoot e seus amigos passam por <br>experiências estranhas dentro de um motel no
+            <br>meio da estrada que é alvo de mais de 200 suicídios.<br> A partir disso todos os seres
+            sobrenaturais presentes <br>começam a ter alucinações bizarras
+          </p>
+        </div>
+        <div class="titulo_ep_radio">Silêncio de Rádio</div>
+        <div class="imagem_ep_radio"></div>
+        <div class="descricao_ep_radio">
+          <p>Após desaparecer Stiles fica preso <br>em uma estação de trem misteriosa,<br>junto com todos
+            que desapareceram de Beacon Hills.<br> Stiles sente como se todos <br>estivessem em uma
+            longa hipinose </p>
         </div>
       </div>
+      <hr class="linha1">
     </div>
-  
-    <div class="footer">
-      <div class="container">
-        <h4>Feito com amor por aluno &hearts; SPTech &copy; 2023</h4>
-        <span class="version">v1.0.0</span>
+    <hr class="linha2">
+    </div>
+    <div class="imagem_quadrado"></div>
+  </header>
+  </section>
+
+  <section id="historia" class="tela_historia">
+    <main>
+
+
+      <div class="quadrado_preto_hist">
+
+        <div class="tituloHistoria">Conheça mais sobre essa história incrível!</div>
+        <div class="paragrafo_historia">
+          <p>Teen Wolf conta a história de Scott McCall, um adolescente comum que tem sua vida transformada <br>
+            após ser mordido por um lobisomem em uma noite na floresta. Com o tempo, Scott descobre habilidades
+            sobrenaturais,<br>
+            como força, velocidade e sentidos aguçados, mas também precisa aprender a controlar seus instintos e
+            proteger todos ao seu redor.<br><br>
+            Ao lado de seu melhor amigo Stiles Stilinski, Scott enfrenta diversas criaturas sobrenaturais em Beacon
+            Hills, <br>
+            incluindo alfas, caçadores, kanimas e outras ameaças perigosas. Durante sua jornada, ele forma sua própria
+            alcateia,<br>
+            que embora fosse composta por pessoas e seres muito diferentes, era a alcateia que ele precisava,<br>
+            isso o leva a aprender o verdadeiro significado de amizade, liderança e sacrifício.<br>
+            A série mistura ação, suspense, romance e mistério, mostrando a evolução de Scott de um simples estudante
+            <br>
+            para um poderoso Alfa verdadeiro, sempre tentando proteger sua cidade e aqueles que ama.</p>
+        </div>
+
       </div>
-    </div>
-  </body>
+      <hr class="linha3">
+      </div>
+
+      <div class="imagem_historia"></div>
+
+      <div class="tituloPersonagens">Personagens Principais</div>
+      <div class="img_scoot"></div>
+      <div class="descricao_scoot">Scoot Mcall</div>
+      <div class="img_stiles"></div>
+      <div class="descricao_stiles">Stiles Stilinski</div>
+      <div class="img_lydia"></div>
+      <div class="descricao_lydia">Lydia Martin</div>
+      <div class="img_derek"></div>
+      <div class="descricao_derek">Derek Hale</div>
+      <div class="img_alisson"></div>
+      <div class="descricao_alisson">Alisson Argent</div>
+      </div>
+    </main>
+  </section>
+</body>
 
 </html>

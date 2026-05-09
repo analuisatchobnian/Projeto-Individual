@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>AquaTech | Login</title>
+    <title>Universo Teen Wolf | Login</title>
 
     <script src="./js/sessao.js"></script>
 
+    <link rel="stylesheet" href="css/style_login.css">
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="icon" href="./assets/icon/favicon2.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,68 +18,61 @@
 
 <body>
 
-    <!--Header-->
-
-    <div class="header">
-        <div class="container">
-            <h1 class="titulo">AquaTech</h1>
-            <ul class="navbar">
-                <li>
-                    <a href="index.html">Inicial</a>
-                </li>
-                <li>
-                    <a href="simulador.html">Simulador</a>
-                </li>
-                <li>|</li>
-                <li class="agora">
-                    <a href="#">Login</a>
-                </li>
-                <li>
-                    <a href="cadastro.html">Cadastro</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+    <section id="login" class="tela_login">
+        <header>
+            <nav class="barra_login">
+                <ul class="topicos_login">
+                    <li><a href="./index.html" class="bt_home">HOME</a></li>
+                    <li><a href="./historia" class="bt_hist" id="id_hist">HISTÓRIA</a></li>
+                    <li><a href="#" class="bt_cur" id="id-cur">CURIOSIDADES</a></li>
+                    <li><a href="./cadastro.html" class="bt_cad" id="id_cad" onclick="irCadastro()">CADASTRO</a></li>
+                    <li><a href="./login.html" class="bt_log" onclick="irParaLogin()">LOGIN</a></li>
+                </ul>
+            </nav>
+        </header>
 
 
-    <div class="login">
+
         <div class="alerta_erro">
             <div class="card_erro" id="cardErro">
                 <span id="mensagem_erro"></span>
             </div>
         </div>
-        <div class="container">
-            <div class="card card-login">
-                <h2>Olá de volta!</h2>
-                <div class="formulario">
-                    <div class="campo">
-                        <span>E-mail:</span>
-                        <input id="email_input" type="text" placeholder="Login">
-                    </div>
-                    <div class="campo">
-                        <span>Senha:</span>
-                        <input id="senha_input" type="password" placeholder="******">
-                    </div>
-                    <button class="botao" onclick="entrar()">Entrar</button>
-                </div>
 
-                <div id="div_aguardar" class="loading-div">
-                    <img src="./assets/circle-loading.gif" id="loading-gif">
-                </div>
+        <div class="box_login">
+            <h2 class="tituloLogin">FAÇA LOGIN</h2>
 
-                <div id="div_erros_login"></div>
+            <p class="topo">USUÁRIO/EMAIL</p>
+            <input class='ipt' type="text" id="email_input" placeholder="alfa@gmail.com"><br><br>
+
+            <p class="topo">SENHA</p>
+            <input class='ipt' type="password" id="senha_input" placeholder="BeaconHills123"><br><br>
+           
+            <button id="button_validar" onclick="entrar()">Entrar</button><br><br>
+        </div>
+        <div class="box_imagem_login">
+                <div class="imagem_login"></div>
+                <p class="paragrafo_login">Faça login e mergulhe no misterioso universo de Teen Wolf. <br>Explore a
+                    comunidade, acesse conteúdos exclusivos e conecte-se com outros fãs.</p>
+            </div>
+
+        <div id="div_aguardar" class="loading-div">
+            <img src="./assets/circle-loading.gif" id="loading-gif">
+        </div>
+
+        <div id="div_erros_login"></div>
+        </div>
+        </div>
+        </div>
+
+        <!--footer inicio-->
+        <div class="footer">
+            <div class="container">
+                <h4>Feito com amor por aluno &hearts; SPTech &copy; 2023</h4>
+                <span class="version">v1.0.0</span>
             </div>
         </div>
-    </div>
-
-    <!--footer inicio-->
-    <div class="footer">
-        <div class="container">
-            <h4>Feito com amor por aluno &hearts; SPTech &copy; 2023</h4>
-            <span class="version">v1.0.0</span>
-        </div>
-    </div>
-    <!--footer fim-->
+        <!--footer fim-->
 
 </body>
 

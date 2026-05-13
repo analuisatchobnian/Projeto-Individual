@@ -73,7 +73,7 @@ body {
 
 .box_login {
     position: relative;
-    transform: translate(340px, 250px);
+    transform: translate(360px, 200px);
     background-color: black;
     padding: 50px;
     border-radius: 15px;
@@ -200,7 +200,7 @@ body {
 
 .box_imagem_login {
     position: relative;
-    transform: translate(1100px, -350px);
+    transform: translate(1100px, -320px);
     background-color: black;
     padding: 50px;
     border-radius: 15px;

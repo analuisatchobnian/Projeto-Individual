@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+section {
+    scroll-margin-top: 110px;
+}
+
 .tela_home {
     width: 100vw;
     height: 100vh;
@@ -321,7 +325,7 @@ body {
     font-weight: 700;
     font-size: 43px;
     bottom: 45%;
-    left: 10%;
+    left: 36%;
 }
 
 .img_scoot {
@@ -358,7 +362,7 @@ body {
     box-shadow: 0 0 10px rgb(181, 38, 38);
 
     top: 62%;
-    left: 40%;
+    left: 44%;
 
     width: 12vw;
     height: 25vh;
@@ -368,7 +372,7 @@ body {
     position: absolute;
     color: rgba(255, 255, 255, 0.776);
     top: 89%;
-    left: 40%;
+    left: 45%;
     font-size: 18px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
@@ -383,7 +387,7 @@ body {
     box-shadow: 0 0 10px rgb(181, 38, 38);
 
     top: 62%;
-    left: 55%;
+    left: 62%;
 
     width: 12vw;
     height: 25vh;
@@ -393,7 +397,7 @@ body {
     position: absolute;
     color: rgba(255, 255, 255, 0.776);
     top: 89%;
-    left: 55%;
+    left: 62%;
     font-size: 18px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
@@ -408,17 +412,17 @@ body {
     box-shadow: 0 0 10px rgb(181, 38, 38);
 
     top: 62%;
-    left: 70%;
+    left: 80%;
 
     width: 12vw;
     height: 25vh;
 }
 
 .descricao_derek {
-     position: absolute;
+    position: absolute;
     color: rgba(255, 255, 255, 0.776);
     top: 89%;
-    left: 70%;
+    left: 80%;
     font-size: 18px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
@@ -433,7 +437,7 @@ body {
     box-shadow: 0 0 10px rgb(181, 38, 38);
 
     top: 62%;
-    left: 25%;
+    left: 27%;
 
     width: 12vw;
     height: 25vh;
@@ -443,8 +447,308 @@ body {
     position: absolute;
     color: rgba(255, 255, 255, 0.776);
     top: 89%;
-    left: 25%;
+    left: 27%;
     font-size: 18px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
+}
+
+
+.tela_curiosidades {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/imgs/fundo_resto.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.quadrado_preto_curiosidades {
+    background-color: black;
+    position: absolute;
+    left: 4%;
+    width: 93vw;
+    height: 100vh;
+}
+
+
+.tituloCuriosidades {
+    position: absolute;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 53px;
+    bottom: 84%;
+    left: 40%;
+}
+
+.linha4 {
+    border: none;
+    width: 2px;
+    height: 785px;
+    background: linear-gradient(to bottom, transparent, rgba(207, 7, 7, 0.685), rgba(243, 0, 0, 0.795), rgba(207, 7, 7, 0.685), transparent);
+    position: absolute;
+    top: 14%;
+    left: 50%;
+}
+
+.cur_scoot {
+    background-image: url("../assets/imgs/cur_scoot.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+
+    top: 17%;
+    left: 5%;
+
+    width: 13vw;
+    height: 20vh;
+}
+
+.card_cur_scott {
+    background-color: #5045456c;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    width: 40vw;
+    height: 25vh;
+}
+
+.descricao_cur_scoot {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.776);
+    bottom: 67%;
+    left: 21%;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+}
+
+.fonte_cur_scott a {
+    position: absolute;
+    color: rgba(189, 1, 1, 0.776);
+    bottom: 63%;
+    left: 21%;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+.card_cur_dylan {
+    background-color: #5045456c;
+    position: absolute;
+    top: 43%;
+    left: 3%;
+    width: 40vw;
+    height: 25vh;
+}
+
+.cur_dylan {
+    background-image: url("../assets/imgs/cur_dylan1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+
+    top: 45%;
+    left: 5%;
+
+    width: 13vw;
+    height: 20vh;
+}
+
+.descricao_cur_dylan {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.776);
+    bottom: 39%;
+    left: 21%;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+}
+
+.fonte_cur_dylan a {
+    position: absolute;
+    color: rgba(189, 1, 1, 0.776);
+    bottom: 35%;
+    left: 21%;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+
+.card_cur_antiga {
+    background-color: #5045456c;
+    position: absolute;
+    top: 72%;
+    left: 3%;
+    width: 40vw;
+    height: 25vh;
+}
+
+.cur_antiga {
+    background-image: url("../assets/imgs/cur_antiga.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+
+    top: 74%;
+    left: 5%;
+
+    width: 13vw;
+    height: 20vh;
+}
+
+.descricao_cur_antiga {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.776);
+    bottom: 10%;
+    left: 21%;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+}
+
+.fonte_cur_antiga a{
+    position: absolute;
+    color: rgba(189, 1, 1, 0.776);
+    bottom: 6%;
+    left: 21%;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+.card_cur_maquiagem {
+    background-color: #5045456c;
+    position: absolute;
+    top: 72%;
+    left: 54%;
+    width: 40vw;
+    height: 25vh;
+}
+
+.cur_maquiagem {
+    background-image: url("../assets/imgs/cur_maquiagem.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+
+    top: 75%;
+    left: 56%;
+
+    width: 13vw;
+    height: 20vh;
+}
+
+.descricao_cur_maquiagem {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.776);
+    bottom: 9%;
+    left: 72%;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+}
+
+.fonte_cur_maquiagem a {
+    position: absolute;
+    color: rgba(189, 1, 1, 0.776);
+    bottom: 5%;
+    left: 72%;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+.card_cur_gorila {
+    background-color: #5045456c;
+    position: absolute;
+    top: 43%;
+    left: 54%;
+    width: 40vw;
+    height: 25vh;
+}
+
+.cur_gorila {
+    background-image: url("../assets/imgs/cur_gorila.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+
+    top: 46%;
+    left: 56%;
+
+    width: 13vw;
+    height: 20vh;
+}
+
+.descricao_cur_gorila {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.776);
+    bottom: 40%;
+    left: 72%;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+}
+
+.fonte_cur_gorila a {
+    position: absolute;
+    color: rgba(189, 1, 1, 0.776);
+    bottom: 34%;
+    left: 72%;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+.card_cur_jack {
+    background-color: #5045456c;
+    position: absolute;
+    top: 15%;
+    left: 54%;
+    width: 40vw;
+    height: 25vh;
+}
+
+.cur_jack {
+    background-image: url("../assets/imgs/cur_jack_copia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+
+    top: 18%;
+    left: 56%;
+
+    width: 13vw;
+    height: 20vh;
+}
+
+.descricao_cur_jack {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.776);
+    bottom: 64%;
+    left: 72%;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+}
+
+.fonte_cur_jack a {
+    position: absolute;
+    color: rgba(189, 1, 1, 0.776);
+    bottom: 62%;
+    left: 72%;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
 }

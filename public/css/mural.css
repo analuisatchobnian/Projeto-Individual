@@ -1,0 +1,113 @@
+.janela {
+    display: flex;
+    /* width: 100vw; */
+}
+
+.header-left a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    height: 100vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right: 3px solid #000000;
+    background-color: #0000009d;
+}
+
+.header-left h1 {
+    color: #7e0000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.hello {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hello h3 {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.hello h3 span {
+    font-weight: 700;
+}
+
+.btn-nav {
+    width: 40%;
+    color: white;
+    background-color: #900202cb;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2% 5%;
+}
+
+.btn-nav-white {
+    width: 40%;
+    background-color: white;
+    border: 3px solid #900202cb;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2% 5%;
+}
+
+.btn-nav-white h3 {
+    color: #900202cb;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-nav h3,
+.btn-logout h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-logout {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #2a2c2c;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 15px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.fundo_mural {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/imgs/Fundo_mural.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.dash-right {
+  display: flex;
+  width: 70%;
+  height: fit-content;
+  background-color: transparent;
+  position: relative;
+  top: 0;
+  left: 25%;
+  height: 100vh;
+  overflow: auto;
+}
+

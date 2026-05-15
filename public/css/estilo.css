@@ -19,6 +19,7 @@ body {
   display: flex;
   width: 80%;
   margin: auto;
+  margin-left: 20px;
 }
 
 .header {

@@ -92,7 +92,7 @@ body {
     background-color: black;
     padding: 50px;
     border-radius: 15px;
-    height: 580px;
+    height: 540px;
     width: 490px;
     border: 2px rgb(194, 16, 16);
     box-shadow: 0 0 10px rgb(194, 16, 16);
@@ -159,7 +159,7 @@ body {
     background-color: gray;
     box-shadow: 0 0 10px rgb(194, 16, 16);
     margin-bottom: 5px;
-    transform: translate(0, -20px);
+    transform: translate(0, -1px);
 }
 
 ::placeholder {
@@ -215,7 +215,7 @@ body {
 
 .box_imagem_cadastro {
     position: relative;
-    transform: translate(400px, -500px);
+    transform: translate(400px, -470px);
     background-color: black;
     padding: 50px;
     border-radius: 15px;

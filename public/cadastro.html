@@ -12,84 +12,82 @@
 
   <link rel="stylesheet" href="css/style_login.css">
   <link rel="stylesheet" href="./css/estilo.css" />
-  <link rel="icon" href="./assets/icon/favicon2.ico" />
+  <link rel="icon" href="./assets/icon/icone_teen_wolf.png" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
 </head>
 
-<body onload="listar()">
+<body>
   <!--header inicio-->
   <section id="cadastro" class="tela_cadastro">
-  <header>
-    <div id="tela_cadastro" class="div_tela_cadastro_login">
-      <nav class="barra_login">
-        <ul class="topicos_login">
-          <li><a href="./index.html" class="bt_home">HOME</a></li>
-          <li><a href="./historia.html" class="bt_hist" id="id_hist">HISTÓRIA</a></li>
-          <li><a href="#" class="bt_cur" id="id-cur">CURIOSIDADES</a></li>
-          <li><a href="./cadastro.html" class="bt_cad" id="id_cad">CADASTRO</a></li>
-          <li><a href="./login.html" class="bt_log">LOGIN</a></li>
-        </ul>
-      </nav>
-  </header>
+    <header>
+      <div id="tela_cadastro" class="div_tela_cadastro_login">
+        <nav class="barra_login">
+          <ul class="topicos_login">
+            <li><a href="./index.html" class="bt_home">HOME</a></li>
+            <li><a href="./historia.html" class="bt_hist" id="id_hist">HISTÓRIA</a></li>
+            <li><a href="#" class="bt_cur" id="id-cur">CURIOSIDADES</a></li>
+            <li><a href="./cadastro.html" class="bt_cad" id="id_cad">CADASTRO</a></li>
+            <li><a href="./login.html" class="bt_log">LOGIN</a></li>
+          </ul>
+        </nav>
+    </header>
 
-  
+
     <div class="alerta_erro">
       <div class="card_erro" id="cardErro">
         <span id="mensagem_erro"></span>
       </div>
     </div>
-    
-          <!--
+
+    <!--
                          Para inserir mais um campo, copie uma das inputs abaixo.
                          Assim que inserir vá para o script abaixo.
                      -->
-          <div class="box_cadastro">
-            <h2 class="tituloCadastro">JUNTE-SE Á ALCATEIA</h2> <br>
+    <div class="box_cadastro">
+      <h2 class="tituloCadastro">JUNTE-SE Á ALCATEIA</h2> <br>
 
-            <span class="topo1">CÓDIGO</span><br>
-            <input class='ipt1' type="password" id="codigo_input" placeholder="BeaconHills123"> <br><br>
-
-            <span class="topo1">NOME COMPLETO </span><br>
-            <input class='ipt1' type="text" id="nome_input" placeholder="Scoot Mcall"> <br><br>
+      <span class="topo1">NOME COMPLETO </span><br>
+      <input class='ipt1' type="text" id="nome_input" placeholder="Scoot Mcall"> <br><br>
 
 
-            <span class="topo1">USUÁRIO (EMAIL) </span><br>
-            <input class='ipt1' type="text" id="email_input" placeholder="alfa@gmail.com"> <br><br>
+      <span class="topo1">USUÁRIO (EMAIL) </span><br>
+      <input class='ipt1' type="text" id="email_input" placeholder="alfa@gmail.com"> <br><br>
 
 
-            <span class="topo1">SENHA </span><br>
-            <input class='ipt1' type="password" id="senha_input" placeholder="BeaconHills123"> <br><br>
+      <span class="topo1">SENHA </span><br>
+      <input class='ipt1' type="password" id="senha_input" placeholder="BeaconHills123"> <br><br>
 
 
-            <span class="topo1">CONFIRMAÇÃO SENHA </span><br>
-            <input class='ipt1' type="password" id="confirmacao_senha_input" placeholder="BeaconHills123"> <br><br>
+      <span class="topo1">CONFIRMAÇÃO SENHA </span><br>
+      <input class='ipt1' type="password" id="confirmacao_senha_input" placeholder="BeaconHills123"> <br><br>
 
-            <button id="button_registro" type="button" onclick="cadastrar()">Cadastrar</button> <br><br>
+      <button id="button_registro" type="button" onclick="cadastrar()">Cadastrar</button> <br><br>
 
-          </div>
-          <div id="div_aguardar" class="loading-div">
-            <img src="./assets/circle-loading.gif" id="loading-gif" />
-          </div>
-
-          <div id="div_erros_login"></div>
-        </div>
-      </div>
     </div>
-  </div>
-  </div>
-  <div class="box_imagem_cadastro">
-    <div class="imagem_cadastro"></div>
-    <p class="paragrafo_cadastro">Cadastre-se e tenha acesso exclusivo a votações, comentários e curiosidades de
-      Teen wolf, venha fazer parte da alcateia.</p>
-  </div>
-  </div>
-</section>
+    <div id="div_aguardar" class="loading-div">
+      <img src="./assets/circle-loading.gif" id="loading-gif" />
+    </div>
+
+    <div id="div_erros_login"></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="box_imagem_cadastro">
+      <div class="imagem_cadastro"></div>
+      <p class="paragrafo_cadastro">Cadastre-se e tenha acesso exclusivo a votações, comentários e curiosidades de
+        Teen wolf, venha fazer parte da alcateia.</p>
+    </div>
+    </div>
+  </section>
+
 </html>
 
 <script>
 
   // Array para armazenar empresas cadastradas para validação de código de ativação 
-  let listaEmpresasCadastradas = [];
+  // let listaEmpresasCadastradas = [];
 
   function cadastrar() {
     // aguardar();
@@ -100,16 +98,16 @@
     var emailVar = email_input.value;
     var senhaVar = senha_input.value;
     var confirmacaoSenhaVar = confirmacao_senha_input.value;
-    var codigoVar = codigo_input.value;
-    var idEmpresaVincular
+    // var codigoVar = codigo_input.value;
+    // var idEmpresaVincular
 
     // Verificando se há algum campo em branco
     if (
       nomeVar == "" ||
       emailVar == "" ||
       senhaVar == "" ||
-      confirmacaoSenhaVar == "" ||
-      codigoVar == ""
+      confirmacaoSenhaVar == "" 
+    //  codigoVar == ""
     ) {
       cardErro.style.display = "block";
       mensagem_erro.innerHTML =
@@ -122,17 +120,17 @@
     }
 
     // Verificando se o código de ativação é de alguma empresa cadastrada
-    for (let i = 0; i < listaEmpresasCadastradas.length; i++) {
-      if (listaEmpresasCadastradas[i].codigo_ativacao == codigoVar) {
-        idEmpresaVincular = listaEmpresasCadastradas[i].id
-        console.log("Código de ativação válido.");
-        break;
-      } else {
-        cardErro.style.display = "block";
-        mensagem_erro.innerHTML = "(Mensagem de erro para código inválido)";
-        finalizarAguardar();
-      }
-    }
+    // for (let i = 0; i < listaEmpresasCadastradas.length; i++) {
+    //   if (listaEmpresasCadastradas[i].codigo_ativacao == codigoVar) {
+    //     idEmpresaVincular = listaEmpresasCadastradas[i].id
+    //     console.log("Código de ativação válido.");
+    //     break;
+    //  } else {
+    //    cardErro.style.display = "block";
+    //  mensagem_erro.innerHTML = "(Mensagem de erro para código inválido)";
+    // finalizarAguardar();
+    // }
+    //   }
 
     // Enviando o valor da nova input
     fetch("/usuarios/cadastrar", {
@@ -146,7 +144,7 @@
         nomeServer: nomeVar,
         emailServer: emailVar,
         senhaServer: senhaVar,
-        idEmpresaVincularServer: idEmpresaVincular
+        //  idEmpresaVincularServer: idEmpresaVincular
       }),
     })
       .then(function (resposta) {
@@ -177,24 +175,24 @@
   }
 
   // Listando empresas cadastradas 
-  function listar() {
-    fetch("/empresas/listar", {
-      method: "GET",
-    })
-      .then(function (resposta) {
-        resposta.json().then((empresas) => {
-          empresas.forEach((empresa) => {
-            listaEmpresasCadastradas.push(empresa);
+  //function listar() {
+  //  fetch("/empresas/listar", {
+  //   method: "GET",
+  // })
+  //   .then(function (resposta) {
+  // resposta.json().then((empresas) => {
+  //  empresas.forEach((empresa) => {
+  //    listaEmpresasCadastradas.push(empresa);
 
-            console.log("listaEmpresasCadastradas")
-            console.log(listaEmpresasCadastradas[0].codigo_ativacao)
-          });
-        });
-      })
-      .catch(function (resposta) {
-        console.log(`#ERRO: ${resposta}`);
-      });
-  }
+  //    console.log("listaEmpresasCadastradas")
+  //    console.log(listaEmpresasCadastradas[0].codigo_ativacao)
+  //  });
+  //  });
+  //  })
+  //   .catch (function (resposta) {
+  //    console.log(`#ERRO: ${resposta}`);
+  // });
+  //  }
 
   function sumirMensagem() {
     cardErro.style.display = "none";

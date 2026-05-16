@@ -1,74 +1,52 @@
 .quadrado_preto_quiz {
-    background-color: black;
+    background-color: #000000e8;
     position: relative;
-    width: 75vw;
-    height: 89vh;
-    margin-left: 450px;
-    margin-top: 60px;
+    width: 65vw;
+    height: 80vh;
+    margin-left: 560px;
+    margin-top: 90px;
+    border-radius: 25px;
+
+    border: 2px rgb(194, 16, 16);
+    box-shadow: 0 0 10px rgb(194, 16, 16);
 }
 
 
-.palavra_Quiz {
-    position: relative;
-    color: white;
-    font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 1px;
-    font-weight: 700;
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 20px;
-}
-
-
-.quadrado_vermelho_quiz {
-    background-color: #520505;
-    position: relative;
-    width: 75vw;
-    height: 12vh;
-    top: 70px;
-}
 
 .titulo1_quiz {
     position: relative;
-    color: white;
-    font-family: 'Poppins', sans-serif;
+    color: rgb(250, 249, 249);
+    font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 1px;
     font-weight: 500;
     font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 150px;
+    top: 90px;
     text-align: center;
 }
 
-.titulo2_quiz {
-    position: relative;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 1px;
-    font-weight: 500;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 180px;
-}
 
 #button_comecar {
-    background-color: #2A2c2c;
+    background-color: rgb(194, 16, 16);
     color: white;
     text-decoration: none;
+
     height: 100px;
-    width: 400px;
-    border-radius: 10px;
-    position: relative;
+    width: 300px;
+    border-radius: 40px;
+
     font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-family: 600;
+
     top: 300px;
-    left: 500px;
+    left: 450px;
+
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
 }

@@ -159,7 +159,7 @@ body {
     background-color: gray;
     box-shadow: 0 0 10px rgb(194, 16, 16);
     margin-bottom: 5px;
-    transform: translate(0, -1px);
+    transform: translate(0, -10px);
 }
 
 ::placeholder {

@@ -144,6 +144,17 @@ section {
     font-weight: 600;
 }
 
+.spoiler {
+    position: absolute;
+    color: rgb(93, 3, 3);
+    bottom: 51%;
+    left: 41%;
+    font-size: 29px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
 .imagem_ep_morte {
     background-image: url("../assets/imgs/alissonmorte.png");
     background-size: cover;
@@ -613,7 +624,7 @@ section {
     font-family: "Poppins", sans-serif;
 }
 
-.fonte_cur_antiga a{
+.fonte_cur_antiga a {
     position: absolute;
     color: rgba(189, 1, 1, 0.776);
     bottom: 6%;

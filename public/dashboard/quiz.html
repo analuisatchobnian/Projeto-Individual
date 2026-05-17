@@ -56,18 +56,48 @@
 
         </div>
 
-        <div class="quiz_principal">
+        <div id="capa_quiz" class="quiz_principal">
             <div class="quadrado_preto_quiz">
-                <div class="palavra_Quiz">Quiz de personalidade</div>
+                <div class="palavra_Quiz">Qual criatura sobrenatural é você?</div>
                 <div class="quadrado_vermelho_quiz">
-                <div class="titulo1_quiz">Você acabou de chegar em Beacon Hills, onde mistérios e perigos bizarros <br>
-                    dominam a cidade.Responda ao quiz e descubra qual criatura <br>do universo de Teen Wolf mais
-                    combina com você!</div>
-                <button id="button_comecar" onclick="comecar()">Iniciar quiz</button>
-</div>
+                    <div class="paragrafo_quiz">Você acabou de chegar em Beacon Hills, onde mistérios e perigos
+                        <br>bizarros
+                        dominam a cidade. Responda ao quiz e descubra qual <br>criatura do universo de Teen Wolf mais
+                        combina com você!
+                    </div>
+                    <button id="button_comecar" onclick="comecar()">Iniciar quiz</button>
+                    <div class="lobisomem_capa"></div>
+                    <div class="besta_capa"></div>
+                </div>
             </div>
         </div>
+
+        <div id="pergunta_quiz" class="primeira_quiz" style="display: none;">
+            <div class="quadrado_preto_quiz">
+                <div id="pergunta" class="pergunta_1">
+                    1. Em uma situação de perigo, você:
+                </div>
+                <div id="respostas" class="respostas_1">
+
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+
+                </div>
+                <div class="imagem_pergunta_1"></div>
+            </div>
+
+            <div id="resultado_final" style="display: none;">
+                    <div class="quadrado_preto_quiz">
+
+                    </div>
+                </div>
+
 
 </body>
 
 </html>
+<script src="../js/quiz.js">
+
+</script>

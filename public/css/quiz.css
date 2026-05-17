@@ -1,5 +1,5 @@
 .quadrado_preto_quiz {
-    background-color: #000000e8;
+    background-color: #0d0d0dee;
     position: relative;
     width: 65vw;
     height: 80vh;
@@ -7,46 +7,182 @@
     margin-top: 90px;
     border-radius: 25px;
 
-    border: 2px rgb(194, 16, 16);
-    box-shadow: 0 0 10px rgb(194, 16, 16);
+    border: 2px solid rgba(121, 11, 11, 0.633);
+    box-shadow: 0 0 20px rgba(121, 11, 11, 0.633);
 }
 
-
-
-.titulo1_quiz {
-    position: relative;
+.palavra_Quiz {
     color: rgb(250, 249, 249);
+
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 60px;
+
+    text-align: center;
+
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.quadrado_vermelho_quiz {
+    background-color: rgba(121, 11, 11, 0.633);
+
+    width: 55vw;
+    height: 48vh;
+
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px;
+    margin-left: 45px;
+    margin-top: 30px;
+
+    gap: 50px;
+
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.paragrafo_quiz {
+    color: rgb(250, 249, 249);
+
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 1px;
     font-weight: 500;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 90px;
+
+    font-size: 33px;
+
     text-align: center;
+    margin-top: 30px;
 }
 
 
 #button_comecar {
-    background-color: rgb(194, 16, 16);
+    background-color: black;
     color: white;
-    text-decoration: none;
 
     height: 100px;
-    width: 300px;
-    border-radius: 40px;
+    width: 380px;
+
+    border-radius: 20px;
 
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 30px;
-    font-family: 600;
+    font-size: 35px;
 
-    top: 300px;
-    left: 450px;
+    border: 2px solid rgba(121, 11, 11, 0.633);
 
-    position: relative;
+    cursor: pointer;
+
+    transition: 0.3s;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    border: none;
+
+    margin-top: 120px;
 }
+
+.lobisomem_capa {
+    width: 20vw;
+    height: 20vh;
+    overflow: hidden;
+    background-image: url("../assets/imgs/lobisomem_capa.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+
+    margin-right: 800px;
+    margin-top: 355px;
+}
+
+.besta_capa {
+    width: 20vw;
+    height: 20vh;
+    overflow: hidden;
+    background-image: url("../assets/imgs/besta_capa.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+
+    margin-left: 774px;
+    margin-top: 355px;
+}
+
+.pergunta_1 {
+    color: rgb(250, 249, 249);
+
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 45px;
+
+    text-align: left;
+
+    margin-top: 60px;
+    margin-left: 80px;
+
+    width: 70%;
+
+    min-height: 120px;
+}
+
+.btn{
+    background-color: rgba(121, 11, 11, 0.386);
+
+    border: 2px solid rgba(0, 0, 0, 0.633);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.633);
+    border-radius: 10px;
+    border: none;
+    color: white;
+
+    cursor: pointer;
+    transition: all 0.3s;
+
+    text-align: left;
+    margin: 20px 0;
+    padding: 10px;
+
+    width: 72%;
+    height: 70px;
+
+    font-size: 25px;
+    font-weight: 500;
+
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.btn:hover:not([disabled]) {
+    background: #0d0d0dee;
+    color: #fff;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+.respostas_1 {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.imagem_pergunta_1 {
+    width: 20vw;
+    height: 40vh;
+    overflow: hidden;
+    background-image: url("../assets/imgs/");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+
+    margin-left: 774px;
+    margin-top: -400px;
+}
+
